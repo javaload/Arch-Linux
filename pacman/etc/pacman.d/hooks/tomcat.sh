@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script modifies access right to tomcat filders.
+# This script modifies access right of tomcat folders.
 
 sudo chmod o+rwx /usr/share/tomcat8/* -R
 sudo chmod o+rwx /var/lib/tomcat8/* -R
